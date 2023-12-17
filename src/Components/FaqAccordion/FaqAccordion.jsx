@@ -12,9 +12,9 @@ const FaqAccordion = () => {
                 <span className='faq__container-head-title'>FAQs</span>
             </div>
             <div className="faq__container-acordion">
-                <Accordion defaultActiveKey="0">
+                <Accordion defaultActiveKey="0" >
 
-                    <Accordion.Item eventKey="0">
+                    <Accordion.Item eventKey="0" >
                         <Accordion.Header>What is Frontend Mentor, and how will it help me?</Accordion.Header>
                         <Accordion.Body>
                             Frontend Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in HTML, CSS , and JavaScript. it's suitable for all levels and ideal for portfolio building.

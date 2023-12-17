@@ -20,3 +20,35 @@
     font-weight: 700;
     margin-left: 15px;
 }
+
+.faq__container-acordion {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.accordion {
+    width: 100%;
+}
+
+/* -----------------------------------ACCORDION STYLE */
+
+.accordion-button {
+    font-weight: 700;
+}
+
+.accordion-body {
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.accordion-button:hover {
+    color: #AD28EB !important
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../../../public/assets/images/icon-minus.svg') !important;
+}
+
+.accordion-button::after {
+    background-image: url('../../../public/assets/images/icon-plus.svg') !important;
+}
