@@ -1,0 +1,22 @@
+.faq__container {
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+
+.faq__container-head {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.faq__container-head-img {
+    width: 8%;
+}
+
+.faq__container-head-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 15px;
+}

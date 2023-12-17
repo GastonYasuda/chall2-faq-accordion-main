@@ -1,10 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import FaqAccordion from './Components/FaqAccordion/FaqAccordion';
 
 function App() {
   return (
     <div className="App">
+      
+      <div className='home'>
 
+        <FaqAccordion />
+      </div>
     </div>
   );
 }
