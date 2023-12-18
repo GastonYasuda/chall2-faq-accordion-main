@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .App {
@@ -64,4 +65,10 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 375px) {
+  .home {
+    background-image: url('./../public/assets/images/background-pattern-mobile.svg');
+  }
 }

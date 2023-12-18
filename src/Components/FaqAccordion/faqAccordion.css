@@ -3,7 +3,7 @@
     margin: auto;
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .faq__container-head {
@@ -12,11 +12,11 @@
 }
 
 .faq__container-head-img {
-    width: 8%;
+    width: 11%;
 }
 
 .faq__container-head-title {
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
     margin-left: 15px;
 }
@@ -33,11 +33,11 @@
 /* -----------------------------------ACCORDION STYLE */
 
 .accordion-button {
-    font-weight: 700;
+    font-weight: 800;
 }
 
 .accordion-body {
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15px;
 }
 
@@ -51,4 +51,18 @@
 
 .accordion-button::after {
     background-image: url('../../../public/assets/images/icon-plus.svg') !important;
+}
+
+@media (max-width: 375px) {
+    .faq__container {
+        width: 80%;
+    }
+
+    .accordion-button {
+        font-size: 14px !important
+    }
+
+    .accordion-body {
+        font-size: 12px;
+    }
 }
