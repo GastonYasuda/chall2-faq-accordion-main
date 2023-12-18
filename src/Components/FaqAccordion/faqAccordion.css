@@ -1,5 +1,6 @@
 .faq__container {
     width: 40%;
+    min-width: 320px;
     margin: auto;
     padding: 20px;
     background-color: hsl(0, 0%, 100%);
@@ -12,7 +13,7 @@
 }
 
 .faq__container-head-img {
-    width: 11%;
+    width: 23px;
 }
 
 .faq__container-head-title {
